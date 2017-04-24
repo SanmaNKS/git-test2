@@ -11,6 +11,9 @@ public class Main {
         for (int j = 0; j < 10; j++) {
             System.out.println(j);
         }
+
+        String s = "ABCDEFG";
+        System.out.println(s.substring(5));
     }
 
     public static void main(String[] args) {
