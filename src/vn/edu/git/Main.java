@@ -3,12 +3,14 @@ package vn.edu.git;
 import vn.edu.sample.Test;
 
 public class Main {
-    private void function2() {
-        System.out.print("FUNCTION2");
+    private String function2() {
+        System.out.println("FUNC-randomtext-" +
+                "TION2");
+        return "AAA";
     }
 
-    private void function3(String s) {
-        System.out.print(s);
+    private int functionConflict(String s) {
+        return Integer.valueOf(s);
     }
 
     public static void main(String[] args) {
