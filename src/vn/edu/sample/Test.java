@@ -6,4 +6,8 @@ package vn.edu.sample;
 public class Test {
 
     private int testField;
+
+    private boolean testFunction() {
+        return true;
+    }
 }
